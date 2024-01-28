@@ -1,0 +1,88 @@
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: 300;
+	src: url('./Fonts/woff/YekanBakhFaNum-Light.woff') format('woff'),   
+	url('./Fonts/woff2/YekanBakhFaNum-Light.woff2') format('woff2');	
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: normal;
+	src: url('./Fonts/woff/YekanBakhFaNum-Regular.woff') format('woff'),   
+	url('./Fonts/woff2/YekanBakhFaNum-Regular.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: 600;
+	src: url('./Fonts/woff/YekanBakhFaNum-SemiBold.woff') format('woff'),   
+	url('./Fonts/woff2/YekanBakhFaNum-SemiBold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: bold;
+	src: url('./Fonts/woff/YekanBakhFaNum-Bold.woff') format('woff'),   
+	url('./Fonts/woff2/YekanBakhFaNum-Bold.woff2') format('woff2'); 
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: 800;
+	src: url('./Fonts/woff/YekanBakhFaNum-ExtraBold.woff') format('woff'),   
+	url('./Fonts/woff2/IRANYekanWebExtraBold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: YekanBakh;
+	font-style: normal;
+	font-weight: 950;
+	src: url('./Fonts/woff/YekanBakhFaNum-ExtraBlack.woff') format('woff'),   
+	url('./Fonts/woff2/IRANYekanWebExtraBlack.woff2') format('woff2');		 
+}
+
+
+
+/**************************************************** material icon *****************************************/
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./Fonts/materialIcons/MaterialIcons-Regular.ttf);
+    /* For IE6-8 */
+    src: local('Material Icons'), local('MaterialIcons-Regular'),
+        url(./Fonts/materialIcons/MaterialIcons-Regular.woff2) format('woff2'),
+        url(./Fonts/materialIcons/MaterialIconsTwoTone-Regular.otf) format('truetype');
+}
+
+/**************************************************** material symbols *****************************************/
+
+@font-face {
+    font-family: "Material Symbols Outlined";
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: block;
+    src: url("./symbol-material/material-symbols-outlined.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Material Symbols Rounded";
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: block;
+    src: url("./symbol-material/material-symbols-rounded.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Material Symbols Sharp";
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: block;
+    src: url("./symbol-material/material-symbols-sharp.woff2") format("woff2");
+}

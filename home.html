@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./content/css/index.css">
+    <!-- font -->
+    <link rel="stylesheet" href="./Content/font/Font.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./content/base/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./content/base/bootstrap/css/bootstrap.rtl.min.css">
+    <!-- owl -->
+    <link rel="stylesheet" href="./Content/base/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./Content/base/OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <title>home</title>
+</head>
+
+<body id="Body">
+    <header></header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-2 p-0">
+                    <div class="sidebar bg-dark d-flex flex-column">
+                        <div class="m-2">
+                            <div class="d-flex justify-content-center align-items-center my-5">
+                                <img src="./content/image/profile-image.png" alt="profile" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <a class="sidebar-menu" data-bs-toggle="collapse" href="#tenyaco-menu-one" role="button"
+                                aria-expanded="false" aria-controls="tenyaco-menu-one">
+                                <span>منوی شماره 1</span>
+                                <span class="material-icons">keyboard_arrow_left</span>
+                            </a>
+                            <div class="collapse" id="tenyaco-menu-one">
+                                <a class="card card-body sidebar-menu-body">
+                                    زیر منوی 1
+                                </a>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <a class="sidebar-menu" data-bs-toggle="collapse" href="#tenyaco-menu-two" role="button"
+                                aria-expanded="false" aria-controls="tenyaco-menu-two">
+                                <span>منوی شماره 2</span>
+                                <span class="material-icons">keyboard_arrow_left</span>
+                            </a>
+                            <div class="collapse" id="tenyaco-menu-two">
+                                <a class="card card-body sidebar-menu-body">
+                                    زیر منوی 1
+                                </a>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <a class="sidebar-menu" data-bs-toggle="collapse" href="#tenyaco-menu-three" role="button"
+                                aria-expanded="false" aria-controls="tenyaco-menu-three">
+                                <span>منوی شماره 3</span>
+                                <span class="material-icons">keyboard_arrow_left</span>
+                            </a>
+                            <div class="collapse" id="tenyaco-menu-three">
+                                <a class="card card-body sidebar-menu-body">
+                                    زیر منوی 1
+                                </a>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <a class="sidebar-menu" data-bs-toggle="collapse" href="#tenyaco-menu-four" role="button"
+                                aria-expanded="false" aria-controls="tenyaco-menu-four">
+                                <span>منوی شماره 4</span>
+                                <span class="material-icons">keyboard_arrow_left</span>
+                            </a>
+                            <div class="collapse" id="tenyaco-menu-four">
+                                <a class="card card-body sidebar-menu-body">
+                                    زیر منوی 1
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-10 p-0">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="p-4 bg-dark">
+                            <h5 class="h4 text-white">عنوان نوبار</h5>
+                            <span class="text-white">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                استفاده از
+                                طراحان گرافیک
+                                است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی
+                                مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</span>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark tenyaco-navbar">
+                        <div class="container-fluid justify-content-between">
+                            <a href="#" class="text-decoration-none text-white h3">تنیاکو</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarToggleExternalContent"
+                                aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
+                    <div class="float-icon-box" id="float-box">
+                        <!-- modal one btn -->
+                        <button type="button" class="btn btn-light float-icon" data-bs-toggle="modal" id="btn-one"
+                            data-bs-target="#modalOne">
+                            <span class="material-icons">emoji_flags</span>
+                        </button>
+                        <!-- Modal one -->
+                        <div class="modal fade" id="modalOne" tabindex="-1" aria-labelledby="modalOneLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">مودال تست 1</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">بستن</button>
+                                        <button type="button" class="btn btn-primary">ذخیره</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- modal two btn -->
+                        <button type="button" class="btn btn-light float-icon" data-bs-toggle="modal" id="btn-two"
+                            data-bs-target="#modalTwo">
+                            <span class="material-icons">favorite</span>
+                        </button>
+                        <!-- Modal two -->
+                        <div class="modal fade" id="modalTwo" tabindex="-1" aria-labelledby="modalTwoLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">مودال تست 2</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">بستن</button>
+                                        <button type="button" class="btn btn-primary">ذخیره</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- modal three btn -->
+                        <button type="button" class="btn btn-light float-icon" data-bs-toggle="modal" id="btn-three"
+                            data-bs-target="#modalThree">
+                            <span class="material-icons">share</span>
+                        </button>
+                        <!-- Modal three -->
+                        <div class="modal fade" id="modalThree" tabindex="-1" aria-labelledby="modalThreeLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">مودال تست 3</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">بستن</button>
+                                        <button type="button" class="btn btn-primary">ذخیره</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>طراحی توسط تنیاکو</p>
+        </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script src="./content/base/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="./content/js/jquery-3.6.0.min.js"></script>
+    <!-- owl -->
+    <script src="./Content/base/OwlCarousel/dist/owl.carousel.min.js"></script>
+    <script src="./content/js/owl.js"></script>
+    <!-- custom -->
+    <script src="./content/js/hoverableIcon.js"></script>
+</body>
+
+</html>

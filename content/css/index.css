@@ -1,0 +1,213 @@
+#Body {
+  font-family: "YekanBakh";
+  background-color: #F3F7FA;
+
+}
+
+/* material icons */
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: rtl;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* material symbols */
+
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: rtl;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga";
+}
+
+
+.material-symbols-rounded {
+  font-family: "Material Symbols Rounded";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: rtl;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga";
+}
+
+.material-symbols-sharp {
+  font-family: "Material Symbols Sharp";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: rtl;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga";
+}
+
+/* home page */
+.sidebar {
+  height: 100vh;
+}
+
+.sidebar-menu {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b5b5cf;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.sidebar-menu:hover {
+  color: #fff;
+}
+
+.sidebar-menu-body {
+  text-decoration: none;
+  background-color: transparent !important;
+  color: #fff !important;
+  padding: 0.3rem 2rem !important;
+
+}
+
+.footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 0.3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.float-icon-box {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.float-icon {
+  border-radius: 100% !important;
+  margin: 0.2rem 0;
+  box-shadow: 1px 2px 8px -4px rgba(0, 0, 0, 0.75);
+  padding: 0.6rem !important;
+}
+
+#btn-two , #btn-three{
+  display: none;
+}
+
+/* articles page */
+.card-img-top {
+  max-height: 15rem;
+}
+
+/* product page */
+.tenyaco-owl-carousel {
+  position: relative;
+}
+
+.tenyaco-owl-carousel>.owl-nav {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tenyaco-owl-carousel>.owl-nav>button {
+  background-color: white !important;
+  width: 2rem;
+  height: 2rem;
+}
+
+.tab-main-content {
+  min-height: 15rem;
+}
+
+.tabs-carousel {
+  background-color: #fff;
+}
+
+
+.tabs-carousel {
+  position: relative;
+}
+
+.tabs-carousel>.owl-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0 !important;
+}
+
+.tabs-carousel>.owl-nav>button {
+  background-color: rgb(186, 186, 186) !important;
+  width: 2rem;
+  height: 2rem;
+}
